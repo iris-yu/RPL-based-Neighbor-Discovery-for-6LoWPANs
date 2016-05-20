@@ -1,0 +1,86 @@
+[00:54:04 - main] [Cooja.java:1324] [INFO] - > Starting Cooja
+[00:54:04 - main] [Cooja.java:2865] [INFO] - External tools default settings: /external_tools_linux.config
+[00:54:04 - main] [Cooja.java:2895] [INFO] - External tools user settings: /home/user/.cooja.user.properties
+[00:54:04 - main] [Simulation.java:420] [INFO] - Simulation random seed: -4171513956016157004
+[00:54:04 - main] [CompileContiki.java:140] [INFO] - > make udp-root.wismote TARGET=wismote 
+[00:54:05 - main] [CompileContiki.java:140] [INFO] - > make hello-world.wismote TARGET=wismote 
+[00:54:05 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-root/udp-root.wismote
+[00:54:05 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:05 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:05 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-rpl-5leg-nd-nullrdc-3hop-5s-1s/examples/RPL-ND-NODATA-rt/hello-world.wismote
+[00:54:06 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+[00:54:06 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+[00:54:06 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+[00:54:06 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+[00:54:06 - main] [Cooja.java:1790] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+[00:54:06 - main] [ScriptRunner.java:429] [INFO] - Test script deactivated
+[00:54:07 - main] [LogScriptEngine.java:265] [INFO] - Script timeout in 180000 ms
+[00:54:07 - main] [ScriptRunner.java:386] [INFO] - Test script activated
+[00:54:07 - Thread-2] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1453938847051
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 8: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 8: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 11: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 11: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 6: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 6: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 3: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 3: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 2: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 2: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 12: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 12: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 14: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 14: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 9: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 9: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 16: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 16: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 15: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 15: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 10: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 10: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 5: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 5: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 4: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 4: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 13: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 13: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 7: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:08 - Thread-2] [MspMote.java:229] [WARN] - 7: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:19 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 235.9 sec
+[00:54:22 - Thread-2] [MspMote.java:229] [WARN] - 1: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007b
+[00:54:22 - Thread-2] [MspMote.java:229] [WARN] - 1: # MSP430[VOID_IO_READ]: *** IOUnit read from non-existent IO at $007e
+[00:54:32 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 10.00%, done in 227.0 sec
+[00:54:42 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 15.00%, done in 200.0 sec
+[00:54:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 20.00%, done in 168.7 sec
+[00:54:56 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 25.00%, done in 147.4 sec
+[00:55:00 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 30.00%, done in 125.2 sec
+[00:55:06 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 35.00%, done in 111.0 sec
+[00:55:15 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 40.00%, done in 103.1 sec
+[00:55:20 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 45.00%, done in 90.1 sec
+[00:55:24 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 50.00%, done in 77.9 sec
+[00:55:29 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 55.00%, done in 67.2 sec
+[00:55:33 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 60.00%, done in 57.9 sec
+[00:55:38 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 65.00%, done in 49.4 sec
+[00:55:43 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 70.00%, done in 41.5 sec
+[00:55:50 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 75.00%, done in 34.6 sec
+[00:55:55 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 80.00%, done in 27.1 sec
+[00:55:59 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 85.00%, done in 19.8 sec
+[00:56:03 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 90.00%, done in 12.9 sec
+[00:56:07 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 95.00%, done in 6.3 sec
+[00:56:11 - Thread-2] [LogScriptEngine.java:375] [INFO] - Timeout event @ 180000000
+[00:56:11 - Thread-1] [LogScriptEngine.java:309] [INFO] - Test script finished
+[00:56:11 - Thread-2] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1453938971753	Duration: 124702 ms	Simulated time 180000 ms	Ratio 1.4434411637343427
+[00:56:12 - AWT-EventQueue-0] [ScriptRunner.java:429] [INFO] - Test script deactivated

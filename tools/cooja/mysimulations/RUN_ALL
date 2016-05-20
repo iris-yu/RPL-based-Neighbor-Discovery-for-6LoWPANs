@@ -1,0 +1,52 @@
+#!/bin/bash
+
+#LOG="TEST-`date '+%F'`.log"
+
+# Usage
+if [ $# -eq 1 ]; then
+  REPEATS=$1
+else
+  echo "Usage: $0 <nr_repeats>"
+  echo "Example: $0 10"
+  exit 1
+fi
+
+if [ -z "$CONTIKI" ]; then
+  if [ -z "$CONTIKI_HOME" ]; then
+  	CONTIKI_HOME=../../..
+    echo Undefined variable: CONTIKI_HOME. Using default: ${CONTIKI_HOME}
+  fi
+  CONTIKI=$CONTIKI_HOME
+fi
+
+
+echo ">>>>>>> Cleaning up previous tests <<<<<<<<"
+rm -f *.log *.cooja_log
+rm -fr se obj_cooja
+rm -f symbols.c symbols.h
+
+
+# Compile COOJA
+echo ">>>>>>> Building COOJA <<<<<<<<"
+(cd $CONTIKI/tools/cooja && ant clean && ant jar)
+if [ "$?" != "0" ]; then
+  echo "Compilation of COOJA failed"
+  exit 1
+fi
+
+for myfile in ./*.csc
+do
+  TEST=`basename $myfile .csc`
+  for COUNTER in `seq 1 $REPEATS`;
+  do
+    echo ">>>>>>> Test $COUNTER/$REPEATS: $TEST-$COUNTER.log <<<<<<<<"
+    bash RUN_TEST $TEST RUN_REPEATED_LAST.log
+    mv $TEST.log $TEST-$COUNTER.log
+   done
+   
+   echo
+   cat RUN_REPEATED_LAST.log
+   echo
+   echo ">>>>>>> DONE! Test logs stored in $TEST-[1-$REPEATS].log <<<<<<<<"
+done
+
